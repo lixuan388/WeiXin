@@ -1,0 +1,180 @@
+body
+{
+	/*width:360px;*/
+	width:100%;
+
+    	background-color: #f8f8f8;
+    	margin: auto;
+	
+}
+
+.TabbarPage
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom:0;
+	left:0;	
+	overflow: hidden;
+}
+
+.weui-form-preview {
+    font-size: 12px;
+}
+.weui-form-preview__hd {
+    line-height: 1.5em;
+}
+.weui-form-preview__bd {
+    line-height: 1.5em;
+}
+.weui-form-preview__item em
+{
+	padding-right: 5px;
+}
+
+@media screen and (max-height: 400px) {
+  .weui-tabbar-tx {
+      position: relative;
+  }
+}
+
+
+.weui-tabbar-tx {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+    height: 2.9285rem;
+}
+
+
+.weui-tabbar-tx .weui-tabbar__icon {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    float: left;
+}
+
+.weui-tabbar-tx .weui-tabbar__label {
+    text-align: center;
+    color: #000;
+    font-size: 1.4285rem;
+    line-height: 1.8;
+    font-weight: 900;
+    display: inline-block;
+    float: left;
+}
+
+.weui-tabbar-tx .weui-tabbar__item {
+    padding-left: 0.7142rem;
+}
+
+.CouponsCard{
+  border: 0.07142rem solid silver;
+  max-width: 28.5714rem;
+  border-radius: 0.3571rem;
+  margin: 0.3571rem;
+  padding: 0.3571rem; 
+  background-color:white; 
+  padding-left: 1.4285rem;
+  position: relative;
+}
+.CouponsName{
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.CouponsCard[UseFlag='1'] .CouponsName{
+  color:#717171;
+}
+
+.CouponsTimeValidity:before{
+  content: "有效期：";
+  font-size: 0.8rem;
+  color: silver;
+    
+}
+.CouponsTimeValidity{
+  float: left;
+  color: red;
+  margin-top: 1.428rem;
+}
+
+.CouponsRemark{
+    float: left;
+    color: silver;
+    font-size: 0.8rem;
+    margin-top: 1.428rem;
+    margin-left: 0.7142rem;
+}
+
+
+.CouponsRemark a{
+    color: silver;
+}
+
+
+.CouponsRemark .weui-icon_msg {
+  font-size: 0.8rem;
+}
+
+
+.CouponsCard[UseFlag='1'] .CouponsTimeValidity{
+  color:#717171;
+}
+
+
+
+.CouponsCard:before{
+  content: "";
+  position: absolute;
+  float: left;
+  top: calc(50% - 0.3571rem);
+  left: 0px;
+    width:0;
+    height:0.3571rem;
+    border-top:0.3571rem solid transparent;
+    border-bottom:0.3571rem solid transparent;
+    border-left:0.3571rem solid silver;
+}
+
+.CouponsCard:after{
+  content: "";
+  position: absolute;
+  float: right;
+  top: calc(50% - 0.3571rem);
+  right: 0px;
+    width:0;
+    height:0.3571rem;
+    border-top:0.3571rem solid transparent;
+    border-bottom:0.3571rem solid transparent;
+    border-right: 0.3571rem solid silver;
+}
+.CouponsButton{
+  float: right;  
+    margin-top: 1.428rem;
+}
+.CouponsButton .btn{
+  padding: 0.2857rem 0.3571rem;
+  font-size:0.8571rem;
+  line-height:0.8571rem;
+}
+
+.card {
+  position: relative;
+  /*height: calc(100% - 75px);*/
+  padding: 0.3571rem;
+  overflow: auto;
+  box-shadow: 0 0.1428rem 0.2857rem rgba(0, 0, 0, .12);
+  border: 0.0714rem solid #d2d2d2;
+  background-color: #fff;
+  border-radius: 0.1428rem;
+}
+  .card+.card{
+  margin-top: 0.7142rem;
+  }
+

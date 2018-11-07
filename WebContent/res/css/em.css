@@ -1,0 +1,244 @@
+body,html {
+  /*max-width: 640px;*/
+  margin: auto;
+  font-size: calc(100vw/ 375 * 14);
+}
+
+.layui-tab {
+    margin: 0.714em 0;
+}
+
+
+
+.layui-tab-card {
+    border-width: 0.0714em;
+    border-style: solid;
+    border-radius: 0.1428em;
+    box-shadow: 0 0.1428em 0.357em 0 rgba(0,0,0,.1);
+}
+
+.layui-tab-title {
+height: 2.4375em;
+
+border-bottom-width: 0.0714em;
+
+font-size: 1.142857em;
+}
+
+.layui-tab-title .layui-this::after {
+    height: 2.928em;
+    border-width: 0.0714em;
+    border-radius: 0.1428em 0.1428em 0 0;
+}
+
+.layui-tab-title li {
+
+    font-size: 14px;
+    line-height: 40px;
+    min-width: 65px;
+    padding: 0 15px;
+
+}
+.layui-tab-title li {
+
+font-size: 0.875em;
+line-height: 2.857em;
+min-width: 4.642em;
+padding: 0 1.071em;
+
+}
+
+.dateList .layui-tab-title li {
+
+padding: 0 0.5em;
+min-width: 4em;
+
+}
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.weui-tab__panel {
+    padding-bottom: 0;
+}
+
+.layui-tab-content {
+    padding: 0.714em;
+}
+label {
+
+    margin-bottom: 0.35714em;
+ 
+}
+.weui-form-preview {
+    font-size: 0.8571rem;
+}
+.weui-form-preview__hd {
+
+    padding: 0.71429em 1.07142em;
+    line-height: 2.5em;
+
+}
+.weui-form-preview__bd {
+
+    padding: 0.71429em 1.07142em;
+
+}
+
+.weui-btn{
+  
+    font-size: 1.2857rem;
+}
+.weui-badge {
+    padding: .15rem .4rem;
+    min-width: .5714rem;
+    border-radius: 1.2857rem;
+    line-height: 1.2;
+    font-size: 0.857rem;
+}
+
+.weui-cells__title {
+    margin-top: .77rem;
+    margin-bottom: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.weui-cells {
+    margin-top: 1.17647059rem;
+    font-size: 1.2142rem;
+}
+
+.weui-cell {
+    padding: 0.7142rem 1.0714rem;
+}
+
+.weui-icon_toast.weui-loading {
+    margin: 2.1428rem 0 0;
+    width: 2.714rem;
+    height: 2.714rem;
+}
+
+.weui-dialog__bd:first-child {
+    padding: 2.7em 1.4285rem 1.7em;
+}
+
+.weui-dialog__bd {
+    padding: 0 1.6em .8em;
+    min-height: 2.8571rem;
+    font-size: 1.0714rem;
+}
+.weui-dialog {
+
+    max-width: 21.4285rem;
+    border-radius: 0.2142rem;
+}
+.weui-dialog__ft {
+    line-height: 3.4285;
+    font-size: 1.2857rem;
+}
+
+.weui-form-preview__hd .weui-form-preview__value {
+    font-size: 1.6rem;
+}
+.weui-form-preview__label {
+    margin-right: 1rem;
+    min-width: 4rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.layui-tab-bar .layui-icon {
+
+    top: 0.1875rem;
+
+}
+.layui-icon {
+    font-size: 1.1428rem;
+
+}
+
+.layui-tab-card > .layui-tab-title .layui-tab-bar {
+
+    line-height: 2.5em;
+
+}
+.layui-tab-card > .layui-tab-title .layui-tab-bar {
+
+    height: 2.5em;
+    line-height: 2.5em;
+
+}
+.layui-tab-bar {
+
+
+    width: 1.875rem;
+    height: 2.4375rem;
+    line-height: 2.4375rem;
+    border-width: 0.0625rem;
+    border-radius: 0.125rem;
+
+}
+
+.input-group-addon {
+    padding: 0.4285rem 0.8571rem;
+    font-size: 1rem;
+    line-height: 1;
+    border: 0.0714rem solid #ccc;
+    border-radius: 0.2857rem;
+}
+
+
+.btn-group-lg > .btn, .btn-lg {
+
+    padding: 0.5555rem 0.8888rem;
+    font-size: 1.2857rem;
+    line-height: 1.3333333rem;
+    border-radius: 0.3333rem;
+
+}
+.btn {
+
+    padding: 0.4285rem 0.8571rem;
+    font-size: 1rem;
+    line-height: 1.42857143rem;
+    border-radius: 0.2857rem;
+
+}
+
+.form-control {
+    width: 100%;
+    height: 2.4285rem;
+    padding: 0.4285rem 0.8571rem;
+    font-size: 1rem;
+    line-height: 1.42857143;
+    border: 0.07142rem solid #ccc;
+    border-radius: 0.2857rem;
+    -webkit-box-shadow: inset 0 0.07142rem 0.07142rem rgba(0,0,0,.075);
+    box-shadow: inset 0 0.07142rem 0.07142rem rgba(0,0,0,.075);
+}
+
+
+.modal-body {
+    padding: 1.0714rem;
+}
+
+.nav>li>a {
+    padding: 0.7142rem 1.07142rem;
+}
+
+.container-fluid {
+    padding-right: 1.07142rem;
+    padding-left: 1.07142rem;
+}
+
+div{
+    font-size: 0.8571rem;
+    line-height: 1em;
+}
+
+p {
+    margin: 0 0 0.7142rem;
+}
